@@ -4,10 +4,22 @@
 
 int main()
 {
-	char str[10];
+	int i=0,v=0;
+	char str[100];
+	printf("Enter the string");
 	scanf("%s", str);
+	
+while (str[i++]!='\0')
+{
+   if(str[i]=='a'||
+      str[i]=='e'||
+      str[i]=='i'||
+      str[i]=='o'||
+      str[i]=='u')
+   v++
+}
+printf("%s contains %d vowels",str,v);
 
-	//Write your code here
-
+	
 	return 0;
 }
